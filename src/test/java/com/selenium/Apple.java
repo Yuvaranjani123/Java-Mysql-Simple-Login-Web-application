@@ -19,7 +19,7 @@ public class Apple {
 		        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
 		        //open the web app
-		        driver.navigate().to("http://18.118.134.148:8080/LoginWebApp/");
+		        driver.navigate().to("http://18.118.101.135:8080/LoginWebApp/");
 		        driver.manage().window().maximize();
 		        String title = driver.getTitle();
 
